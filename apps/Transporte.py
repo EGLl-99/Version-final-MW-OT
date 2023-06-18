@@ -4,6 +4,7 @@ import geemap.foliumap as geemap
 import folium
 
 ee.Authenticate('egonzalezllamas@gmail.com')
+ee.Initialize()
 #st.set_page_config(layout='wide')
 
 
