@@ -2,9 +2,10 @@ import streamlit as st
 import ee
 import geemap.foliumap as geemap
 import folium
+from google.auth import compute_engine
 
-ee.Authenticate('egonzalezllamas@gmail.com')
-ee.Initialize()
+credentials = compute_engine.Credentials(scopes=['https://www.googleapis.com/auth/earthengine'])
+ee.Initialize(credentials)
 #st.set_page_config(layout='wide')
 
 
