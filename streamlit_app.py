@@ -1,5 +1,5 @@
 import streamlit as st
-#from streamlit_option_menu import option_menu
+from streamlit_option_menu import option_menu
 
 import sys
 from streamlit.config import on_config_parsed
@@ -10,8 +10,8 @@ def register_options_menu():
 
 on_config_parsed(register_options_menu)
 
-sys.argv.extend(["streamlit_app", "C:/Users/egonz/Documents/PFOTV2/Version-final-MW-OT/streamlit_app.py"])
-main(prog_name="streamlit")
+sys.argv.extend(["streamlit_app.py", "C:/Users/egonz/Documents/PFOTV2/Version-final-MW-OT/streamlit_app.py"])
+main(prog_name="streamlit_app.py")
 
 
 from apps import Transporte, prior, PoblaEcon, Geol, Cons, Clima # import your app modules here
