@@ -9,6 +9,7 @@ sys.path.insert(1, "c:/Users/egonz/anaconda3/envs/workshop/Lib/site-packages/str
 
 from streamlit_option_menu import option_menu
 
+
 from apps import Transporte, prior, PoblaEcon, Geol, Cons, Clima # import your app modules here
 
 st.set_page_config(page_title= 'Ordenamiento Territorial',page_icon=':tada:',layout='wide')
