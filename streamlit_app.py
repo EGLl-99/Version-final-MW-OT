@@ -3,13 +3,13 @@ import sys
 from streamlit.config import on_config_parsed
 from streamlit.web.cli import main
 
-def register_options_menu():
-    import streamlit_option_menu
+# def register_options_menu():
+#     import streamlit_option_menu
 
-on_config_parsed(register_options_menu)
+# on_config_parsed(register_options_menu)
 
-sys.argv.extend(["streamlit_app.py", "C:/Users/egonz/Documents/PFOTV2/Version-final-MW-OT/streamlit_app.py"])
-main(prog_name="streamlit_app.py")
+# sys.argv.extend(["streamlit_app.py", "C:/Users/egonz/Documents/PFOTV2/Version-final-MW-OT/streamlit_app.py"])
+# main(prog_name="streamlit_app.py")
 
 from streamlit_option_menu import option_menu
 from apps import Transporte, prior, PoblaEcon, Geol, Cons, Clima # import your app modules here
