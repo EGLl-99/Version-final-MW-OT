@@ -7,5 +7,4 @@ nbserverproxy
 owslib
 streamlit
 streamlit_option_menu
-
-
+option_menu
