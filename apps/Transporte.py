@@ -2,8 +2,7 @@ import streamlit as st
 import ee
 import geemap.foliumap as geemap
 import folium
-ee.Authenticate()
-geemap.ee.Initialze()
+geemap.ee_initialize()
 #st.set_page_config(layout='wide')
 
 
