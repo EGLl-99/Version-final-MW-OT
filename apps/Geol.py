@@ -3,7 +3,7 @@ import ee
 import geemap.foliumap as geemap
 import folium
 
-#ee.Initialize()
+ee.Authenticate()
 #st.set_page_config(layout='wide')
 
 

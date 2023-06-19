@@ -2,9 +2,7 @@ import streamlit as st
 import ee
 import geemap.foliumap as geemap
 import folium
-# from google.auth import compute_engine
-credentials = compute_engine.Credentials(scopes=['4/1AbUR2VNSeeafqxRVYq7eDhT6bkSqCHu6UQw6feFI-aaTnnQDlszWR1AFxn8'])
-ee.Initialize()
+ee.Authenticate()
 #st.set_page_config(layout='wide')
 
 
