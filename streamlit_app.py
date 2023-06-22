@@ -22,26 +22,26 @@ def local_css(file_name):
         
 local_css('style/style.css')
 
-st.sidebar.title("Ordenamiento Territorial")
-st.sidebar.info(
-    """
-El Ordenamiento Territorial en Yucatán es un instrumento de política ambiental que tiene como objetivo regular o inducir el uso del suelo y las actividades humanas en la región. A continuación, se presentan algunos detalles sobre cómo se aplica el Ordenamiento Territorial en Yucatán:
+# st.sidebar.title("Ordenamiento Territorial")
+# st.sidebar.info(
+#     """
+# El Ordenamiento Territorial en Yucatán es un instrumento de política ambiental que tiene como objetivo regular o inducir el uso del suelo y las actividades humanas en la región. A continuación, se presentan algunos detalles sobre cómo se aplica el Ordenamiento Territorial en Yucatán:
 
-- El gobierno del estado de Yucatán cuenta con una Secretaría de Desarrollo Sustentable (SDS) encargada de implementar el Ordenamiento Ecológico y Territorial en la región.+
+# - El gobierno del estado de Yucatán cuenta con una Secretaría de Desarrollo Sustentable (SDS) encargada de implementar el Ordenamiento Ecológico y Territorial en la región.+
 
-- El Ordenamiento Territorial en Yucatán se rige por la Ley de Ordenamiento Territorial y Desarrollo Urbano del Estado de Yucatán, que establece las bases para la planificación y gestión del territorio en la región.
+# - El Ordenamiento Territorial en Yucatán se rige por la Ley de Ordenamiento Territorial y Desarrollo Urbano del Estado de Yucatán, que establece las bases para la planificación y gestión del territorio en la región.
 
-- El Plan de Gestión Territorial es un instrumento clave para la implementación del Ordenamiento Territorial en Yucatán. Este plan establece las directrices para el uso del suelo y las actividades humanas en la región, y se elabora a través de un protocolo específico.
+# - El Plan de Gestión Territorial es un instrumento clave para la implementación del Ordenamiento Territorial en Yucatán. Este plan establece las directrices para el uso del suelo y las actividades humanas en la región, y se elabora a través de un protocolo específico.
 
-- El Ordenamiento Territorial en Yucatán se enfoca en la conservación de los recursos naturales y la biodiversidad de la región, así como en el desarrollo sustentable de las actividades humanas.
+# - El Ordenamiento Territorial en Yucatán se enfoca en la conservación de los recursos naturales y la biodiversidad de la región, así como en el desarrollo sustentable de las actividades humanas.
 
-- El Ordenamiento Territorial en Yucatán se lleva a cabo a través de un proceso participativo que involucra a las comunidades locales, las autoridades y otros actores relevantes en la región.
+# - El Ordenamiento Territorial en Yucatán se lleva a cabo a través de un proceso participativo que involucra a las comunidades locales, las autoridades y otros actores relevantes en la región.
 
-En resumen, el Ordenamiento Territorial en Yucatán es un instrumento de política ambiental que busca regular el uso del suelo y las actividades humanas en la región, con el objetivo de promover el desarrollo sustentable y la conservación de los recursos naturales y la biodiversidad. Este proceso se lleva a cabo a través de un plan de gestión territorial y un proceso participativo que involucra a las comunidades locales y otros actores relevantes en la región.
-    """
-)
+# En resumen, el Ordenamiento Territorial en Yucatán es un instrumento de política ambiental que busca regular el uso del suelo y las actividades humanas en la región, con el objetivo de promover el desarrollo sustentable y la conservación de los recursos naturales y la biodiversidad. Este proceso se lleva a cabo a través de un plan de gestión territorial y un proceso participativo que involucra a las comunidades locales y otros actores relevantes en la región.
+#     """
+# )
 
-st.sidebar.title("En esumen")
+st.sidebar.title("En resumen")
 st.sidebar.info(
     """
 En este sitio se presenta el resultado de la evaluación de análisis multivariable en Yucatán. Cabe señalar que esta evaluación está enfocada en localizar las zonas con las condiciones óptimas para el desarrollo de la economía del estado yucateco. Este factor es de gran importancia ya que como uno de los objetivos prioritarios del ordenamiento territorial esta velar por una buena calidad de vida de las personas que habitan el territorio. 
@@ -54,12 +54,12 @@ En este sitio se presenta el resultado de la evaluación de análisis multivaria
 
 apps = [
     # {"func": home.app, "title": "Home", "icon": "house"},
-    {"func": Clima.app, "title": "Clima", "icon": "map"},
+    {"func": prior.app, "title": "Priorización", "icon": "map"},
     {"func": Cons.app, "title": "Conservación", "icon": "map"},
     {"func": Geol.app, "title": "Agricultura", "icon": "map"},
     {"func": PoblaEcon.app, "title": "Población Economicamente activa", "icon": "map"},
-    {"func": prior.app, "title": "Priorizacion", "icon": "map"},
-    {"func": Transporte.app, "title": "Transporte", "icon": "map"}
+    {"func": Transporte.app, "title": "Transporte", "icon": "map"},
+    {"func": Clima.app, "title": "Clima", "icon": "map"}
 ]
 
 titles = [app["title"] for app in apps]
