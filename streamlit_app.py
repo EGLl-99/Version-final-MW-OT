@@ -57,7 +57,7 @@ apps = [
     {"func": prior.app, "title": "Priorización", "icon": "map"},
     {"func": Cons.app, "title": "Conservación", "icon": "map"},
     {"func": Geol.app, "title": "Agricultura", "icon": "map"},
-    {"func": PoblaEcon.app, "title": "Población Economicamente activa", "icon": "map"},
+    {"func": PoblaEcon.app, "title": "Población Economicamente Activa", "icon": "map"},
     {"func": Transporte.app, "title": "Transporte", "icon": "map"},
     {"func": Clima.app, "title": "Clima", "icon": "map"}
 ]
